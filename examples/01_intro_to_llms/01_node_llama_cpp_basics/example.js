@@ -19,7 +19,7 @@ console.log('✓ Llama instance ready\n');
 // STEP 2: Load a model
 console.log('Step 2: Loading model...');
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const modelPath = path.join(__dirname, "..", "..", "..", "models", "hf_Qwen_Qwen3-1.7B.Q8_0.gguf");
+const modelPath = path.join(__dirname, "..", "..", "..", "models", "TinyLlama-1.1B-Chat-v1.0.Q4_K_M.gguf");
 
 const model = await llama.loadModel({
     modelPath,
