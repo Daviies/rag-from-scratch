@@ -409,6 +409,7 @@ Before:
 "First paragraph.
 
 
+
 Second paragraph."
 
 After:
